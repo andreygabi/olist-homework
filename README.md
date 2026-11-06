@@ -9,14 +9,14 @@
 Нужны Git, Docker с Linux engine и Docker Compose v2. Рекомендуется выделить Docker 4 CPU, 6 ГБ RAM и 15 ГБ диска. Обучение на CPU; Kaggle, удалённый сервер и внешняя БД не требуются.
 
 ```bash
-git clone "$REPOSITORY_URL" olist-homework
+git clone https://github.com/andreygabi/olist-homework.git
 cd olist-homework
 cp .env.example .env
 docker compose up -d --build
 docker compose ps
 ```
 
-`REPOSITORY_URL` — адрес репозитория с этим решением. Если проверяете архив, распакуйте его и выполняйте команды начиная с `cd olist-homework`.
+Если проверяете архив, распакуйте его и выполняйте команды начиная с `cd olist-homework`.
 
 | Интерфейс | Адрес на компьютере |
 |---|---|
